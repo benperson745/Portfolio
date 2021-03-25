@@ -53,12 +53,12 @@ html {
 }
 
 .maincontainer > div {
-	background-image: linear-gradient(to left, #79019dff, #79019dff);
+	background-image: linear-gradient(to right, #79019dff, #79019dff);
 }
 
 .maincontainer > div:hover {
-	background-image: linear-gradient(to left, #79019dff, transparent 95%), url('E:/WebsiteFiles/ZeldaInMotion.gif');
-	background-position: left;
+	background-image: linear-gradient(to right, #79019dff, transparent 95%), url('E:/WebsiteFiles/Portfolio/WebsiteFiles/ZeldaInMotion.gif');
+	background-position: right;
 	background-repeat: no-repeat;
 }
 
@@ -72,6 +72,7 @@ p {
 	font-family: 'Dosis', sans-serif;
 	font-size: 24px;
 	color: white;
+	width: 600px;
 }
 
 /* Contact Form CSS based on W3 */
