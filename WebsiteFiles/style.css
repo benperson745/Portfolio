@@ -19,6 +19,26 @@ html {
 	font-size: 32px;
 }
 
+#problem {
+	background-color: #d30f0fff;
+}
+
+#tools {
+	background-color: #ffc02eff;
+}
+
+#plan {
+	background-color: #ffc02eff;
+}
+
+#execution {
+	background-color: #ffc02eff;
+}
+
+#result {
+	background-color: #3779ffff;
+}
+
 .logo {
 	padding: 10px 10px;
 	font-family: 'Teko', sans-serif;
@@ -47,7 +67,7 @@ html {
 
 .maincontainer {
 	display:grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 1em;
 	grid-auto-rows: 300px;
 }
@@ -60,6 +80,13 @@ html {
 	background-image: linear-gradient(to right, #79019dff, transparent 95%), url('E:/WebsiteFiles/Portfolio/WebsiteFiles/ZeldaInMotion.gif');
 	background-position: right;
 	background-repeat: no-repeat;
+}
+
+.studycontainer {
+	display:grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 1em;
+	grid-auto-rows: 300px;
 }
 
 h2 {
